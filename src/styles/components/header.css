@@ -1,0 +1,35 @@
+.nav-container{
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  height: 70px;
+  column-gap: 40px;
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: 300ms;
+}
+
+.fade{
+  transition: 550ms;
+  background-color: #0b0d63;
+}
+
+.logo{
+  position: absolute;
+  left: 2%;
+  font-family: 'Goldman', sans-serif;;
+  font-size: 20px;
+}
+
+.nav-links{
+  display: flex;
+  column-gap: 40px;
+  position: absolute;
+  right: 3%
+}
